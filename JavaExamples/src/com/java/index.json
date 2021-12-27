@@ -1,0 +1,38 @@
+{
+	"Languages":
+	[
+		{
+			"name" : "java"
+		},
+		
+		{
+			"name" : "python"
+		}
+	]
+}
+
+var names = ["narender","anny"];
+
+["narender", "anny"]
+
+var power = {voltage : 250, current : 12}
+
+{
+	"votage":250,
+	"power":12
+}
+
+var power = {voltage="250",current="12"}
+
+{
+	"voltage":"250",
+	"current":"12"
+}
+[
+	{
+		"sensor":"sensor1",
+		"temparature":23,
+		"humidity":76
+	}
+]
+son object
