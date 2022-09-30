@@ -1,5 +1,6 @@
 package com.java.demo;
 
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
@@ -29,5 +30,12 @@ class MathsUtilityTest {
 	void computeCircleAreaTest() {
 		MathsUtility mathsUtility=new MathsUtility();
 		assertEquals(314.1592653589793, mathsUtility.computeCircleArea(10));
+	}
+	
+	@Test
+	void assertThrowsEx() {
+		
+		MathsUtility mathsUtility=new MathsUtility();
+		assertThrows(ArithmeticException.class, ()->mathsUtility.divide(10,8),"The number should divide with zero");
 	}
 }

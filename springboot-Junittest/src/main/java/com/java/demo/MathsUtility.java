@@ -10,6 +10,10 @@ public class MathsUtility {
 		return s;
 	}
 	
+	public void divide(int a, int b)
+	{
+		System.out.println(a/b);
+	}
 	public double computeCircleArea(double radius) {
 		return Math.PI*radius*radius;
 	}
